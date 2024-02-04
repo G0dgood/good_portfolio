@@ -1,0 +1,230 @@
+#side-nav {
+  width: 285px; 
+  padding:  56px 48px 48px 48px;
+  position: relative !important;
+  grid-area: sidenav !important;
+  background: var(--black) !important;
+  border-right: 1px solid #EDEDED;
+  color: var(--white);
+  /* z-index: 99 !important;   */
+  display: block;
+}
+#side-nav .logo-area {
+  height: 60px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, .05); */
+  /* padding-left: 10px ; */
+  display: flex;
+  align-items: center;
+}
+
+#side-nav .logo-area h2 {
+  color: var(--accent-blue);
+  font-weight: normal;
+  user-select: none;
+  font-size:x-large;
+  font-weight: bold;
+}
+
+ 
+
+#side-nav .user-details {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem var(--lft-padding);
+  padding-right: 3rem;
+}
+
+#side-nav .user_avatar {
+  background: rgba(16, 156, 241, 0.1);
+  border: 5px solid rgba(16, 156, 241, 0.4);
+  color: var(--accent-blue);
+  border-radius: 100%;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
+
+#side-nav .user-name_role {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#side-nav .user-name_role p:nth-child(1) {
+  font-weight: 600 !important;
+  max-width: 12ch !important;
+  color: var(--dark-blue) !important;
+}
+
+#side-nav .user-name_role p:nth-child(2) {
+  color: rgba(51, 77, 110, .3) !important;
+}
+
+.user-name_role-sub{
+  white-space: nowrap;
+}
+
+#side-nav nav {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  padding:  10px ;
+  gap: 50px !important; 
+  margin-top: 1.5rem !important;
+}
+
+#side-nav nav .nav-link {
+  display: flex !important;
+  gap: 1rem !important;
+  align-items: center !important;
+  padding:  10px 10px;
+  gap: 5px; 
+  border-radius: 5px;
+}
+#side-nav nav .nav-link:hover {
+  display: flex !important;
+  gap: 1rem !important;
+  align-items: center !important;
+  background-color: #ededed87;
+  padding:  10px 10px ;
+  gap: 10px;
+}
+
+#side-nav nav .active-none{  
+  position: absolute;
+  bottom: -15px;
+  left: 2px;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--white); 
+}
+#side-nav nav .active-link{
+   font-weight: bold;
+  font-size: 30px;
+   position: absolute;
+  bottom: -15px;
+  left: 2px;
+  color: var(--white);   
+}
+#side-nav nav :hover {  
+  color: var(--white);   
+}
+ 
+
+
+
+#side-nav nav a svg {
+  color: #5C5F62 !important;
+}
+
+#side-nav nav span {
+  font-weight: 600;
+  color: #66696B;
+  transition: 100ms ease-in !important;
+}
+
+#side-nav nav a:hover span {
+  color: var(--accent-blue) !important;
+}
+
+#side-nav nav a.active {
+  border-right: 2px solid var(--accent-blue) !important;
+}
+
+#side-nav nav a.active svg,
+#side-nav nav a.active span {
+  color: var(--accent-blue) !important;
+}
+
+#side-nav .nav-sub_area {
+  border-top: 1px solid rgba(0, 0, 0, .05) !important;
+  padding: 1.5rem var(--lft-padding) !important;
+  margin-top: 4rem !important;
+}
+
+#side-nav .nav-sub_area button {
+  background-color: var(--white) !important;
+  border: none;
+  outline: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+#side-nav .nav-sub_area button svg {
+  color: rgb(224, 224, 224) !important;
+}
+
+#side-nav .nav-sub_area button span {
+  font-weight: 600 !important;
+  color: var(--dark-blue) !important;
+}
+
+#side-nav button.toggle-btn {
+  position: absolute !important;
+  bottom: 2rem !important;
+}
+
+#side-nav button.toggle-btn span {
+  font-weight: 600 !important;
+  color: rgb(224, 224, 224) !important;
+}
+
+
+ 
+
+@media only screen and(min-width: 1200px){
+  #side-nav {
+    display: none !important;
+  } 
+}
+
+@media (max-width: 1200px) {
+  #side-nav {
+    display: none;
+  }
+}
+.nav_container{ 
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.nav_bottom_icon_container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav_bottom_icon{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--white);
+}
+
+.nav_bottom_icon_p{
+  margin-top: 18px;
+}
+
+
+.parent_link_container{
+  width: 130px;
+  background: var(--gradient-background);
+  position: relative;
+  height: 8px !important;
+}
+
+.parent_link_container_none{
+  width: 130px; 
+  position: relative;
+  height: 8px;
+}
+
+ 

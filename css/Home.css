@@ -1,0 +1,88 @@
+.home_container { 
+  background-image: url('/Hero-background.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_container_sub {
+  width: 50%;
+  height: 750px;
+  margin: auto;
+  display: flex;
+ flex-direction: column;
+ justify-content: center; 
+}
+
+
+.home_container_sub_text{
+  font-size: 102px;
+  font-weight: 400;
+  width: 92%;
+  text-transform: uppercase;
+  line-height: 90px;  
+}
+.home_container_sub_text span{
+  font-size: 102px;
+  font-weight: 700;
+}
+
+.home_container_sub1{
+  width: 50%; 
+  height: 750px;  
+}
+
+.home_container_sub_text_h6{
+  font-size: 32px;
+  font-style: italic; 
+}
+.home_container_sub_text_h6 span{
+  font-size: 32px; 
+  font-weight: 400;
+  font-style:normal;
+}
+
+.home_container_small_bg_container{
+  width: 258px;
+  height: 58px;
+  background-color: var(--black);
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.home_container_small_bg_container p{
+ font-size: 18px;
+ color: var(--white);
+}
+.home_container_small_bg_container div{
+  width: 24px;
+height: 24px;
+background: var(--gradient-background);
+ display: flex;
+  justify-content: center;
+  align-items: center;
+color: var(--white);
+}
+
+.home_container_small_bg_container_sub{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-top: 4rem;
+    font-weight: bold;
+      font-style: italic; 
+}
+.home_container_small_bg_container_sub1{
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+}
+.home_container_small_bg_container_sub2{
+  display: flex;
+  align-items: center;
+    gap: 17px;
+}

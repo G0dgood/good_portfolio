@@ -1,0 +1,133 @@
+.services_container{
+
+}
+
+.services_container h6{ 
+font-style: italic;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: var(--black); 
+margin-bottom: 16px;
+}
+.services_container h2{   
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px; 
+text-transform: uppercase; 
+color: var(--black); 
+}
+
+/* ServiceContainer.module.css */
+
+.services_container_sup {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black);
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: height 0.3s ease;
+}
+.services_container_sup_plus {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black);
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: height 0.3s ease;
+}
+
+.services_container_sup1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: background 0.3s ease;
+}
+
+.services_container_sup1_plus {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: background 0.3s ease;
+}
+
+.godot_fill {
+  width: 13px;
+  height: 13px;
+  background: var(--black);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.godot_fill_plus {
+  width: 13px;
+  height: 13px;
+  background: #b86adf;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.services_container_sup1 h3,
+.godot_fill {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.services_container_sup1_plus h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  background: linear-gradient(270.16deg, #ffb147 5.74%, #ff6c63 50.64%, #b86adf 92.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.services_container_sup1_h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.services_container_sup2 {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.services_container_sup2 p {
+  width: 545px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--light-text);
+}
+
+.services_container_sup2_img_box {
+  width: 430px;
+  height: 180px;
+  margin-bottom: 30px;
+		 transition: transform 0.3s ease;  
+}
+
+.icon-container { 
+
+}
+.icon-container_plus{
+  transition: transform 0.3s ease;  
+		 transform: rotate(90deg);
+}
+
+ 
