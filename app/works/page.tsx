@@ -9,7 +9,7 @@ import img4 from "../../public/Img_4.svg"
 const Works = () => {
 	return (
 		<div className="works_container" >
-			<h6 className="works_container">Work</h6>
+			<h6  >Work</h6>
 			<h2>Recent project</h2>
 			<div className="works_container_sub_main">
 				<div className="works_container_sub">

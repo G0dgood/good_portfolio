@@ -201,12 +201,28 @@
   gap: 12px;
 }
 
-.nav_bottom_icon{
-
+.nav_bottom_icon{ 
   width: 40px;
   height: 40px;
   border-radius: 50px;
   background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black); 
+  cursor: pointer;
+}
+.nav_bottom_icon :hover{ 
+ width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black); 
+ border: 1px solid var(--white);
+ 
 }
 
 .nav_bottom_icon_p{

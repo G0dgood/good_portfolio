@@ -1,6 +1,8 @@
 "use client"
 import Link from 'next/link';
-
+import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { usePathname } from 'next/navigation'
 
 // Create a NavLink component
@@ -33,9 +35,15 @@ const SideNav = () => {
         </nav>
 
         <div className='nav_bottom_icon_container'>
-          <div className='nav_bottom_icon'></div>
-          <div className='nav_bottom_icon'></div>
-          <div className='nav_bottom_icon'></div>
+          <div className='nav_bottom_icon'>
+            <FaLinkedinIn />
+          </div>
+          <div className='nav_bottom_icon'>
+            <FiGithub />
+          </div>
+          <div className='nav_bottom_icon'>
+            <FaXTwitter />
+          </div>
           <p className='nav_bottom_icon_p'>Copyright ©2023 Jacob Jones. All right reserved.</p>
         </div>
 

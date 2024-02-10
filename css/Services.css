@@ -1,7 +1,6 @@
-.services_container{
-
+.services_container { 
+    padding: 1rem 5rem;
 }
-
 .services_container h6{ 
 font-style: italic;
 font-weight: 600;
@@ -122,12 +121,119 @@ color: var(--black);
 		 transition: transform 0.3s ease;  
 }
 
-.icon-container { 
-
-}
+ 
+ 
 .icon-container_plus{
   transition: transform 0.3s ease;  
 		 transform: rotate(90deg);
+}
+
+
+
+/* For medium screens */
+@media (max-width: 1580px) {
+
+  .services_container_sup1 h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.services_container h2{   
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 56px; 
+text-transform: uppercase; 
+color: var(--black); 
+}
+
+
+}
+/* For medium screens */
+@media (max-width: 1024px) {
+
+  .services_container h2{   
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px; 
+text-transform: uppercase; 
+color: var(--black); 
+}
+
+
+  .services_container { 
+    padding: 1rem 2rem;
+}
+
+  .services_container_sup2 p {
+  width: 100%;
+  height: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--light-text);
+}
+
+  .services_container_sup,
+  .services_container_sup_plus {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+ 
+
+  .services_container_sup2_img_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .services_container_sup1 h3,
+  .godot_fill {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .services_container_sup1_plus h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+ 
+  .services_container_sup,
+  .services_container_sup_plus {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  
+
+  .services_container_sup2_img_box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .services_container_sup1 h3,
+  .godot_fill {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .services_container_sup1_plus h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 
  

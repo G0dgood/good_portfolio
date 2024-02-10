@@ -17,15 +17,23 @@ export default function Home() {
           <h6 className="home_container_sub_text_h6">Software Developer <span>based in</span> Lagos</h6>
           <div className="home_container_small_bg_container">
             <p>Let’s talk with me</p>
-            <div><PiArrowUpRightBold size={20} /></div>
+            <div>
+              <PiArrowUpRightBold size={20} />
+            </div>
           </div>
           <div className="home_container_small_bg_container_sub">
-            <div className="home_container_small_bg_container_sub1"><MdOutlinePhone /><p>+77 022 444 05 05</p></div>
-            <div className="home_container_small_bg_container_sub2"><TfiEmail /><p>chinedu.go@gmail.com</p></div>
+            <div className="home_container_small_bg_container_sub1">
+              <MdOutlinePhone />
+              <p>+77 022 444 05 05</p>
+            </div>
+            <div className="home_container_small_bg_container_sub2">
+              <TfiEmail />
+              <p>chinedu.go@gmail.com</p>
+            </div>
           </div>
         </div>
         <div className="home_container_sub1">
-          <Image src={img} alt="" />
+          <Image src={img} alt="home_img" className="home_container_home_img" />
         </div>
       </div>
     </div>

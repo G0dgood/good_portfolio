@@ -1,9 +1,5 @@
 'use client'
 import { useState } from "react";
-import { GoDotFill } from "react-icons/go";
-import { HiOutlinePlus } from "react-icons/hi";
-import { HiOutlineMinus } from "react-icons/hi";
-import Image from "next/image";
 import imgfull from "../../public/Img-full.svg";
 import imgfull1 from "../../public/Img-full.svg";
 import imgfull2 from "../../public/Img-full.svg";
@@ -29,6 +25,7 @@ const Services = () => {
 			title: 'User research', image: imgfull3, description: "You can customize a template or make your own from scratch, with an immersive library at your disposal.You can customize a template"
 		},
 	];
+
 	const [openIndex, setOpenIndex] = useState<number | null>(null);
 
 	const handleServiceClick = (index: number) => {
@@ -39,7 +36,6 @@ const Services = () => {
 		<div className="services_container">
 			<h6>Service</h6>
 			<h2>My Specialties</h2>
-
 			<>
 				{services.map((service, index) => (
 					<ServiceContainer
@@ -50,8 +46,6 @@ const Services = () => {
 					/>
 				))}
 			</>
-
-
 		</div>
 	)
 }
