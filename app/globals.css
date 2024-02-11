@@ -20,7 +20,7 @@
 :root {
   --gradient-background: linear-gradient(270.16deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%);
   --light-text:rgba(20, 19, 19, 0.8);
-  --fade-purple: #F9F9F9;
+  --fade-purple: #B86ADF;
   --hover-background: #ededed;
   --text: #5C5F62;
   --small-text: #ABACAE;
@@ -91,6 +91,7 @@ a {
  #page-wrapper {
   display: grid !important;
   position: relative;
+   width: 100%;
   height: 100dvh !important;
   grid-template-columns: max-content 1fr !important;
   grid-template-rows: 60px 1fr !important;
@@ -108,7 +109,7 @@ main {
 
 
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   main {
   grid-area: main !important; 
   overflow-y: scroll!important;
@@ -125,7 +126,7 @@ main {
         "sidenav main"
         "sidenav footer"; 
 } 
- }  
+ }   */
   
  /* --- Other CSS Files --- */
 @import url(../css/SideNav.css);  

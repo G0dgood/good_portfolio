@@ -186,7 +186,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 24px; 
-color: #B86ADF; 
+color: var(--fade-purple); 
 }
 
 .quote_container{

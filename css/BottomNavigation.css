@@ -1,97 +1,14 @@
-/* #footer {
-	grid-area: footer !important;
-    background-color: #fff;
-    border-top: 0.1px solid hsla(0,0%,83%,.5);
-    box-shadow: 0 -25px 20px -15px rgba(0,0,0,.45);
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    z-index: 995;
-}
-
-.footer-container{
- display: flex;
-  justify-content: space-between;
-  width: 100%;
-  z-index: 999;
-  align-items: center;
-  margin: 0 20px;
-}
-
-.footerOption-active { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-  color: #6F47EB;
-  border-top:1px solid #6F47EB;
-  cursor: pointer;
-  transition: 500ms ease;
-  padding-top: 0.5rem;
-}
-
  
-.footerOption-top .active {
-  border-top: 1px solid #6F47EB; 
-}
-
-.footerOption:hover {
-  color: black;
-}
-
-.footerOption_title {
-  font-size: 8px !important;
-  font-weight: 300;
-  text-align: center;
-}
-.footerOption_title-active  {
-  font-size: 8px !important;
-  font-weight: 300;
-  text-align: center;
-  color:#6F47EB;
-}
-.footerOption_icon {
-  object-fit: contain;
-  height: 20px !important;
-  width: 20px !important;
-}
-
-.nav-link .active {
-  border-bottom: 2px solid #6F47EB !important;
-}
-
-
-.nav-link .active svg,
-.nav-link nav a.active span {
-  color:#6F47EB !important;
-}
-
-
-@media only screen and(max-width: 1200px){
- #footer {
-    display: none !important;
-
-  } 
- 
-}
-
-@media (min-width: 1200px) {
- #footer {
-    display: none;
-  }
-  
-} */
-.footer {
+#footer {
 	grid-area: footer !important;
-  display: flex;
-  /* position: fixed; 
-  bottom: 0;   */
+  display: flex; 
   justify-content: center;
   width: 100%;
-  background-color: white;
+  background-color: var(--white);
   z-index: 995;
   border-top: 0.1px solid rgba(211, 211, 211, 0.5);
   box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 20px -15px;
+  width:100%,
 }
 .footer_container {
   display: flex;
@@ -100,7 +17,7 @@
   z-index: 999;
   align-items: center;
   margin: 0 10px;
-    background-color: #fff !important;
+  background-color: var(--white) !important;
 }
 
 /* icon button */
@@ -109,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  color: gray;
+  color: var(--small-text);
   cursor: pointer;
   transition: 500ms ease;
 }
@@ -119,8 +36,11 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  color: #6F47EB;
-  border-top:1px solid #6F47EB;
+  background: var(--gradient-background);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; 
+  border-top:1px solid var(--fade-purple);
   cursor: pointer;
   transition: 500ms ease;
   padding-top: 0.5rem;
@@ -129,13 +49,16 @@
 
 /* icon button */
 .footerOption-top .active {
-  border-top: 1px solid #6F47EB;
-    background-color: #fff !important;
+  border-top: 1px solid var(--fade-purple);
+    background-color: var(--white) !important;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; 
 }
 
-.footerOption:hover {
+/* .footerOption:hover {
   color: black;
-}
+} */
 
 .footerOption_title {
   font-size: 8px !important;
@@ -146,34 +69,49 @@
   font-size: 8px !important;
   font-weight: 300;
   text-align: center;
-  color: #6F47EB;
-    background-color: #fff !important;
+  background: var(--gradient-background);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; 
+    background-color: var(--white) !important;
 }
 .footerOption_icon {
   object-fit: contain;
-  height: 20px !important;
-  width: 20px !important;
-    background-color: #fff !important;
+  height: 20px  ;
+  width: 20px  ;
+ background-color: var(--white)  ;
+ color: var(--small-text);
+}
+.footerOption_icon_active  {
+  object-fit: contain;
+  height: 20px  ;
+  width: 20px  ;
+ background-color: var(--white);
+   color: var(--fade-purple) !important;
 }
 
 /* .nav-link   {
-  color: #6F47EB !important;
+  color: var(--gradient-background) !important;
 } */
 
-.footer .nav-link .active {
-  border-bottom: 2px solid #6F47EB !important;
-   background-color: #fff !important;
+#footer  .nav-link .active {
+  border-bottom: 2px solid var(--fade-purple) !important; 
+   background-color: var(--white) !important;
+    color: var(--fade-purple) !important;
 }
 
-.footer .nav-link .active svg,
+#footer  .nav-link .active svg,
 .nav-link nav a.active span {
-  color: #6F47EB !important;
-   background-color: #fff !important;
+  color: var(--fade-purple) !important;
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; 
+   background-color: var(--white) !important;
 }
 
 
 @media only screen and (min-width: 1201px) {
-  .footer {
+  #footer  {
     display: none;
   }
 }

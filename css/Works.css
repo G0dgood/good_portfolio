@@ -1,3 +1,7 @@
+.works_container{  
+	   padding: 1rem 5rem;
+}
+
 .works_container_sub_main{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -11,9 +15,7 @@
 	height: 248px;  
 }
  
-.works_container{  
-	   padding: 1rem 5rem;
-}
+
 
 .works_container_sub{
 	display: flex; 
