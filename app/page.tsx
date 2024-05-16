@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "../public/Img.png"
+import img from "../public/Img.svg"
 import { MdOutlinePhone } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
 import { PiArrowUpRightBold } from "react-icons/pi";
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="home_container_small_bg_container_sub">
           <div className="home_container_small_bg_container_sub1">
             <MdOutlinePhone />
-            <p>+77 022 444 05 05</p>
+            <p>+2348062850763</p>
           </div>
           <div className="home_container_small_bg_container_sub2">
             <TfiEmail />
