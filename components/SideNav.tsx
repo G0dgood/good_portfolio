@@ -9,11 +9,11 @@ import { usePathname } from 'next/navigation'
 const NavLink = ({ href, label }: any) => {
   const pathname = usePathname()
   const isActive = pathname === href;
+
   return (
-    <Link href={href}>
-      <div className={isActive ? 'parent_link_container' : 'parent_link_container_none'}>
-        <span className={isActive ? 'active-link' : 'active-none'}>{label}</span>
-      </div>
+
+    <Link href={href} className={isActive ? 'parent_link_container' : 'parent_link_container_none'}>
+      <span className={isActive ? 'active-link' : 'active-none'}>{label}</span>
     </Link>
   );
 };
@@ -44,7 +44,7 @@ const SideNav = () => {
           <div className='nav_bottom_icon'>
             <FaXTwitter />
           </div>
-          <p className='nav_bottom_icon_p'>Copyright ©2023 Jacob Jones. All right reserved.</p>
+          <p className='nav_bottom_icon_p'>Copyright © 2023 Godwin. All right reserved.</p>
         </div>
 
       </div>
