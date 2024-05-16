@@ -22,7 +22,7 @@ const About = () => {
 					<div className="About_img_container_sub">
 						<Image src={img} alt="home_img" />
 						<div className="about_img_container_two">
-							<h2>Jacob Jones</h2>
+							<h2>Godwin Chinedu</h2>
 							<p>Product Designer <small className="about_img_container_two_small">based in</small> Lagos</p>
 						</div>
 
@@ -71,7 +71,7 @@ const About = () => {
 									</div>
 								</div>
 								<p className="ten_years_p_sub">
-									Hello there! My name is <span >Jacob Jones</span>.
+									Hello there! My name is <span >Godwin Chinedu</span>.
 									I am a web designer & developer, and I'm very passionate and dedicated to my work.
 								</p>
 							</div>
@@ -85,7 +85,7 @@ const About = () => {
 									</div>
 								</div>
 								<p className="ten_years_p_sub">
-									With 10+ years experience as a professional a graphic designer,
+									With 5+ years experience as a professional Software Developer,
 									I have acquired the skills and knowledge necessary to make your project a success.
 								</p>
 							</div>
